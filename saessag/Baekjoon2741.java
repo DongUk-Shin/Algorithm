@@ -2,14 +2,15 @@ package saessag;
 
 import java.util.Scanner;
 
-class Baekjoon2420 {
+class Baekjoon2741 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		long n = sc.nextInt();
-		long m = sc.nextInt();
-		long result = Math.abs(n - m);
+		int n = sc.nextInt();
 		
-		System.out.println(result);
+
+		for (int i = 1; i <= n; i++) {
+			System.out.println(i);
+		}
 
 		sc.close();
 	}
