@@ -2,15 +2,14 @@ package saessag;
 
 import java.util.Scanner;
 
-class BOJ_10951 {
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+public class BOJ_11654 {
 
-		while(sc.hasNextInt()){
-			int a = sc.nextInt();
-			int b = sc.nextInt();
-			System.out.println(a + b);
-		}	
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int s = sc.next().charAt(0);
+		System.out.println(s);
+
 		sc.close();
 	}
 }
