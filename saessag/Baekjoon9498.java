@@ -1,5 +1,3 @@
-package saessag;
-
 import java.util.Scanner;
 
 class Baekjoon9498 {

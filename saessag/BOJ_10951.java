@@ -1,5 +1,3 @@
-package saessag;
-
 import java.util.Scanner;
 
 class B10951 {

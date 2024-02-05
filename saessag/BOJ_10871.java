@@ -1,6 +1,6 @@
 import java.util.Scanner;
  
-public class BJ10871 {
+public class BOJ_10871 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
  
@@ -12,8 +12,8 @@ public class BJ10871 {
 			arr[i] = in.nextInt();
 		}
  
-		in.close();
-        
+
+
 		for (int i = 0; i < N; i++) {
 			if (arr[i] < X) {
 				System.out.print(arr[i] + " ");
