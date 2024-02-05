@@ -3,9 +3,6 @@ import java.util.Scanner;
 class B10951 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int x = sc.nextInt();
-		int y = sc.nextInt();
-
 
 		while(sc.hasNextInt()){
 			int a = sc.nextInt();
