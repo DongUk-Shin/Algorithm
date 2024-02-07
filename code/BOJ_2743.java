@@ -1,4 +1,4 @@
-package saessag;
+package code;
 
 import java.io.*;
 import java.util.Scanner;

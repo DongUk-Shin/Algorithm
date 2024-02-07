@@ -1,6 +1,4 @@
-package saessag;
-
-import java.util.Scanner;
+package code;
 
 public class BOJ_4673 {
 
