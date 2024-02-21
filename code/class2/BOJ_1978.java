@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class BOJ_ {
+public class BOJ_1978 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -18,8 +18,24 @@ public class BOJ_ {
 			numbers[i] = Integer.parseInt(inputs[i]);
 		}
 		
+		int count = 0;
 		for (int number : numbers) {
-			System.out.println(number);
+			if (findPrime(number)) {
+				count++;
+			}
 		}
+		System.out.println(count);
+	}
+	
+	private static boolean findPrime(int n) {
+		if (n == 1) {
+			return false;
+		}
+		for (int i = 2; i < n; i++) {
+			if (n % i == 0) {
+				return false;
+			}
+		}
+		return true;
 	}
 }
